@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculadora de Pizzas</string>
+    <string name="quantas_pessoas_v_o_comer">Quantas pessoas vão comer?</string>
+    <string name="v_o_beber_refrigerante">Vão beber refrigerante?</string>
+    <string name="calcular">Calcular</string>
+    <string name="quantos_peda_oes_de_pizza_cada_um_come">Quantos pedaçoes de pizza cada um come?</string>
+    <string name="limpar_campos">Limpar campos</string>
+</resources>
