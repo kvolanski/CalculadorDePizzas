@@ -2,6 +2,7 @@ package br.edu.calculadorDePizzas;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }else if (this.viewHolder.pedacosPessoa.getText().toString().isEmpty() || this.viewHolder.pedacosPessoa.getText().toString().equals("")){
                  toast = Toast.makeText(getApplicationContext(),"Digite o campo de quantidade de pedaços!!!",Toast.LENGTH_LONG);
             }
+            toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL, 0, 0);
             toast.show();
         }else {
             verificaValores();
